@@ -3,8 +3,8 @@ import streamlit as st
 st.set_page_config(layout="wide")
 def load_data():
     # Load your dataset here, replace 'your_dataset.csv' with your actual dataset file
-    data = pd.read_excel('C:/Users/Ir. Fandi Mohammad/Desktop/LatihanStreamlit/datasumbersampah.xlsx')
-    #data = pd.read_excel('datasumbersampah.xlsx')
+    #data = pd.read_excel('C:/Users/Ir. Fandi Mohammad/Desktop/LatihanStreamlit/datasumbersampah.xlsx')
+    data = pd.read_excel('datasumbersampah.xlsx')
     return data
 # Load the dataset
 
