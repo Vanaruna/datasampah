@@ -25,7 +25,7 @@ attributProvince = datasampah['provinsi'].unique().tolist()
 row1_left, row1_middle, row1_right = st.columns((0.1, 3, 0.1))
 with row1_middle:
     st.title('Jumlah Sampah Provinsi Berdasarkan Sumber Sampah Tahun 2021')
-    st.subheader('Streamlit App by [Bosi Manurung](https://linkedin.com/in/bosimanurung)')
+    st.subheader('Streamlit App by [Vanaruna](https://linktr.ee/vanaruna.store)')
     st.markdown('Sampah merupakan masalah yang dihadapi hampir seluruh Negara di dunia. Tidak hanya di Negara negara berkembang, tetapi juga di\
                  negara - negara maju, sampah selalu menjadi masalah. Rata-rata setiap harinya kota-kota besar di Indonesia menghasilkan puluhan ton sampah.\
                  Pada dashboard berikut akan ditampilkan jumlah sampah (dalam satuan Ton) pada tiap provinsi di Indonesia berdasarkan sumber sampah.')
