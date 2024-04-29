@@ -16,7 +16,7 @@ datasampah = load_data()
 datasampah['total']=datasampah['rumahtangga']+datasampah['perkantoran']+datasampah['pasar']+datasampah['perniagaan'] \
                     +datasampah['fasilitaspublik']+datasampah['kawasan']+datasampah['lainnya']
                     
-datasampah
+#datasampah
 
 #mau diBreakDown/diFilter by province
 attributProvince = datasampah['provinsi'].unique().tolist()
